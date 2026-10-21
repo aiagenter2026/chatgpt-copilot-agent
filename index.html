@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="一個簡單的 Hello World 網頁">
-  <title>Hello World</title>
+  <meta name="description" content="ChatGPT Copilot Agent 網站與開發進度">
+  <title>ChatGPT Copilot Agent</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -15,6 +15,27 @@
     <p class="message">歡迎來到我的第一個網頁。</p>
     <button id="hello-button" type="button">按我打招呼</button>
     <p id="greeting" class="greeting" aria-live="polite"></p>
+
+    <section class="project-status" aria-labelledby="project-status-title">
+      <p class="eyebrow">PROJECT STATUS</p>
+      <h2 id="project-status-title">專案開發狀態</h2>
+
+      <dl class="status-list">
+        <div class="status-item">
+          <dt>專案名稱</dt>
+          <dd>ChatGPT Copilot Agent</dd>
+        </div>
+        <div class="status-item">
+          <dt>目前階段</dt>
+          <dd><span class="status-badge">功能開發與流程驗證</span></dd>
+        </div>
+      </dl>
+
+      <p class="status-description">
+        本專案透過 GitHub 功能分支進行開發，並使用 Pull Request
+        審查變更及自動化檢查，確認後才合併至正式分支。
+      </p>
+    </section>
   </main>
 </body>
 </html>
